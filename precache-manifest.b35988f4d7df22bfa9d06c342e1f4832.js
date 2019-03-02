@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/react-memory-game/static/media/Johnson.8eb2bf1f.jpg"
   },
   {
-    "revision": "5c66a46c24a07ca983e0",
+    "revision": "f3fb1e62bd876024159c",
     "url": "/react-memory-game/static/css/main.41879c6c.chunk.css"
   },
   {
@@ -32,8 +32,8 @@ self.__precacheManifest = [
     "url": "/react-memory-game/static/media/Gwynn.75c63644.jpg"
   },
   {
-    "revision": "5c66a46c24a07ca983e0",
-    "url": "/react-memory-game/static/js/main.5c66a46c.chunk.js"
+    "revision": "f3fb1e62bd876024159c",
+    "url": "/react-memory-game/static/js/main.f3fb1e62.chunk.js"
   },
   {
     "revision": "ea708cf8edcde65cf0085ab0f55bc856",
@@ -64,7 +64,7 @@ self.__precacheManifest = [
     "url": "/react-memory-game/static/media/Trout.9ca79a9d.jpg"
   },
   {
-    "revision": "26af154409fe46dd1c59e164e86c8dfa",
+    "revision": "e4fca60af9d028ff368358edd8df511d",
     "url": "/react-memory-game/index.html"
   }
 ];
