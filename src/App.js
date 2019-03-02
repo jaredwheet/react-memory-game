@@ -29,7 +29,7 @@ class App extends Component {
         clickedPlayer: [],
         score: 0
       });
-        alert("You lose. Play again?");
+        alert("Unfortunately - you lose.  Go ahead and play again!");
 
 //if you click on an available pokemon, your score is increased and cards reordered
     } else {
@@ -46,7 +46,7 @@ class App extends Component {
 //if you get all 12 pokemon current you get a message and the game resets        
         () => {
           if (this.state.score === 12) {
-            alert("Yay! You Win!");
+            alert("Impressive - You are a winner!");
             this.setState({
               player: this.state.players.sort(function(a, b) {
                 return 0.5 - Math.random();
