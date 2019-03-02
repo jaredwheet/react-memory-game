@@ -1,0 +1,50 @@
+[
+    {
+      "id": 1,
+      "image": "Carpenter.jpg"
+    },
+    {
+      "id": 2,
+      "image": "Griffey.jpg"    
+    },
+    {
+      "id": 3,
+      "image": "Gwynn.jpg"
+    },
+    {
+      "id": 4,
+      "image": "Johnson.jpg" 
+    },
+    {
+      "id": 5,
+      "image": "Mantle.jpg"
+    },
+    {
+      "id": 6,
+      "image": "McGwire.jpg"
+    },
+    {
+      "id": 7,
+      "image": "Pujols.jpg"
+    },
+    {
+      "id": 8,
+      "image": "Ripken.jpg"
+    },
+    {
+      "id": 9,
+      "image": "Rose.jpg"
+    },
+    {
+      "id": 10,
+      "image": "Smith.jpg"
+    },
+    {
+      "id": 11,
+      "image": "Trout.jpg"
+    },
+    {
+      "id": 12,
+      "image": "Williams.jpg"
+    }
+  ]
