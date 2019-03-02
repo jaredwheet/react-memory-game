@@ -6,7 +6,6 @@ import PlayerCard from "./components/PlayerCard";
 import players from "./baseball.json";
 import "./App.css";
 
-//sets state to 0 or empty
 class App extends Component {
   state = {
     players,
@@ -14,13 +13,13 @@ class App extends Component {
     score: 0
   };
 
-//when you click on a card ... the pokemon is taken out of the array
+
   imageClick = event => {
     const currentPlayer = event.target.alt;
     const PlayerAlreadyClicked =
       this.state.clickedPlayer.indexOf(currentPlayer) > -1;
 
-//if you click on a pokemon that has already been selected, the game is reset and cards reordered
+
     if (PlayerAlreadyClicked) {
       this.setState({
         player: this.state.players.sort(function(a, b) {
@@ -31,7 +30,7 @@ class App extends Component {
       });
         alert("Unfortunately - you lose.  Go ahead and play again!");
 
-//if you click on an available pokemon, your score is increased and cards reordered
+
     } else {
       this.setState(
         {
@@ -43,7 +42,7 @@ class App extends Component {
           ),
           score: this.state.score + 1
         },
-//if you get all 12 pokemon current you get a message and the game resets        
+     
         () => {
           if (this.state.score === 12) {
             alert("Impressive - You are a winner!");
@@ -60,7 +59,7 @@ class App extends Component {
     }
   };
 
-//the order of components to be rendered: navbar, jumbotron, playercard, footer 
+
   render() {
     return (
       <div>
